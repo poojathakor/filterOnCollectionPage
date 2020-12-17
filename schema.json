@@ -1,0 +1,18 @@
+{
+        "type": "checkbox",
+        "id": "tags_enable",
+        "label": "Enable filtering",
+        "default": true
+      },
+      {
+        "type": "header",
+        "content": "Filter",
+        "info": "To setup Filter by Groups like our demo, please add product's tag to format 'Group'_'Value'. For example: Color_Black, Brand_Elle"
+      },
+      {
+        "type": "text",
+        "id": "group_filter_prefix",
+        "label": "Group use in filter",
+        "default": "brand,color,price,size",
+        "info": "Enter your tag's prefix,separate by comma ie: color,size,brand,price.."
+      }
